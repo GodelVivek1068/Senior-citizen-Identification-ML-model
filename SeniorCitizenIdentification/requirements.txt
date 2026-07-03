@@ -1,0 +1,23 @@
+# ============================================================
+# Senior Citizen Identification System - Dependencies
+# ============================================================
+# Core CV / ML
+opencv-python>=4.9.0.80
+ultralytics>=8.2.0
+torch>=2.2.0
+torchvision>=0.17.0
+numpy>=1.26.0
+lapx>=0.5.5              # required by Ultralytics ByteTrack
+
+# Data handling
+pandas>=2.2.0
+openpyxl>=3.1.2
+
+# UI
+streamlit>=1.35.0
+plotly>=5.22.0
+Pillow>=10.3.0
+
+# Optional (only needed if AGE_GENDER_BACKEND = "insightface" in config.py)
+# insightface>=0.7.3
+# onnxruntime>=1.17.0
